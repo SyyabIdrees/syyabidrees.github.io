@@ -5,7 +5,7 @@ let b3 = document.querySelector('#level3').addEventListener('click', () => {Crea
 function CreateItems(count, rowcount){
   let mem = {
     hWrap : null, // Dein Spielfeld
-    url : "/Memorie_Spiel/images/", 
+    url : "../images/", 
     sets : count, 
     row : rowcount,
     grid : [], 
